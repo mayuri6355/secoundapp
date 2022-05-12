@@ -1,0 +1,45 @@
+table{
+    width: 100%;
+    line-height: 30px;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 20px;
+}
+table tr td , table tr ,table tr th{
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: center;
+    text-align: center;
+}
+.btn_edit , .btn_delete{
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 45%;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: aliceblue;
+}
+.row{
+    margin-top: 20px;
+}
+label{
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.row input{
+    padding: 8px;
+    margin-top: 10px;
+}
+.btn_submit{
+    padding: 20px 10px;
+    display: inline-block;
+    width: 200px;
+    border: none;
+    border-radius: 10%;
+    background-color: rgb(72, 75, 243);
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    letter-spacing: 1px;
+}
